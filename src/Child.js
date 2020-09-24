@@ -1,7 +1,7 @@
 import React from 'react';
 const Child = () => {
 	return(
-	  <div style={{ height: "150px",width: "200px","overflow-y": "scroll"}}>
+	  <div>
 	  	<ul>
 	  		<li>Child Component</li>
 	  		<li>Child Component</li>	  		
@@ -11,6 +11,7 @@ const Child = () => {
 	  		<li>Child Component</li>
 	  		<li>Child Component</li>
 	  		<li>Child Component</li>
+	  		<li>Last Child Component</li>
 	  	</ul>
 	  </div>
 	)
